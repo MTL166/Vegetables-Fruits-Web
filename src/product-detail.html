@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阳光草莓礼盒 — 鲜野集 Fresh Field</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/detail.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+</head>
+<body>
+
+  <!-- Header (shared) -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="header-logo">鲜野集 Fresh Field</a>
+      <nav class="header-nav">
+        <a href="index.html">商品分类</a>
+        <a href="#">今日上新</a>
+        <a href="#">限时优惠</a>
+        <a href="#">产地直采</a>
+        <a href="#">会员专区</a>
+      </nav>
+      <div class="header-search">
+        <div class="search-input">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" placeholder="搜索水果、蔬菜、礼盒">
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="header-cart" aria-label="购物车">
+          <svg viewBox="0 0 24 24">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="header-cart-count">3</span>
+        </button>
+        <span class="header-login">登录</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Breadcrumb (10) -->
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="index.html">首页</a>
+        <span class="sep">›</span>
+        <a href="#">水果鲜选</a>
+        <span class="sep">›</span>
+        <span class="current">阳光草莓礼盒</span>
+      </nav>
+    </div>
+
+    <!-- Product Detail Layout -->
+    <div class="container">
+      <div class="product-detail-layout">
+
+        <!-- Image Gallery (10) -->
+        <div class="image-gallery">
+          <div class="gallery-main">
+            <img id="gallery-main-img" src="assets/images/product_strawberry_giftbox_main.png" alt="阳光草莓礼盒">
+          </div>
+          <div class="gallery-thumbs">
+            <div class="gallery-thumb active" data-full="assets/images/product_strawberry_thumb_01.png">
+              <img src="assets/images/product_strawberry_thumb_01.png" alt="缩略图1">
+            </div>
+            <div class="gallery-thumb" data-full="assets/images/product_strawberry_thumb_02.png">
+              <img src="assets/images/product_strawberry_thumb_02.png" alt="缩略图2">
+            </div>
+            <div class="gallery-thumb" data-full="assets/images/product_strawberry_thumb_03.png">
+              <img src="assets/images/product_strawberry_thumb_03.png" alt="缩略图3">
+            </div>
+            <div class="gallery-thumb" data-full="assets/images/product_strawberry_thumb_04.png">
+              <img src="assets/images/product_strawberry_thumb_04.png" alt="缩略图4">
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Info + Purchase Panel (11) -->
+        <div class="product-info">
+          <h1 class="product-title">阳光草莓礼盒</h1>
+
+          <p class="product-selling-point">当季头茬草莓，果香浓郁，颗颗精选。</p>
+
+          <div class="product-rating-row">
+            <div class="rating">
+              <div class="rating-stars">
+                <span class="rating-star full"></span>
+                <span class="rating-star full"></span>
+                <span class="rating-star full"></span>
+                <span class="rating-star full"></span>
+                <span class="rating-star half"></span>
+              </div>
+              <span class="rating-score">4.8</span>
+              <span class="rating-count">(326 条评价)</span>
+            </div>
+          </div>
+
+          <div class="product-tag-list">
+            <span class="badge badge-fresh">当季头茬</span>
+            <span class="badge badge-fresh">颗颗精选</span>
+            <span class="badge badge-tag">果香浓郁</span>
+            <span class="badge badge-tag">礼盒包装</span>
+          </div>
+
+          <div class="product-price-row">
+            <div class="price price-lg">
+              <span class="price-current">88.00</span>
+            </div>
+            <span class="price-original">108.00</span>
+          </div>
+
+          <div class="product-meta">
+            <div class="product-meta-item">
+              <span class="meta-icon">📐</span>
+              <span>规格：<strong>1.5kg 礼盒装</strong></span>
+            </div>
+            <div class="product-meta-item">
+              <span class="meta-icon">🚚</span>
+              <span>配送：<strong>冷链配送，次日达</strong></span>
+            </div>
+            <div class="product-meta-item">
+              <span class="meta-icon">📍</span>
+              <span>产地：<strong>丹东 · 辽宁</strong></span>
+            </div>
+          </div>
+
+          <!-- Purchase Panel -->
+          <div class="purchase-panel">
+            <div class="purchase-qty-row">
+              <span class="purchase-qty-label">数量</span>
+              <div class="quantity-stepper">
+                <button class="quantity-btn minus">−</button>
+                <input class="quantity-input" type="text" value="1" min="1" max="99" readonly>
+                <button class="quantity-btn plus">+</button>
+              </div>
+            </div>
+            <div class="purchase-actions">
+              <div class="purchase-actions-row">
+                <button class="btn btn-primary btn-lg" style="flex:1;">立即购买</button>
+                <button class="btn btn-outline btn-lg btn-add-cart" style="flex:1;">加入购物车</button>
+              </div>
+              <button class="btn-favorite">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+                收藏
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Panel (12) -->
+      <div class="tab-panel">
+        <div class="tab-nav">
+          <span class="tab-label active" data-tab="detail">商品详情</span>
+          <span class="tab-label" data-tab="origin">产地信息</span>
+          <span class="tab-label" data-tab="reviews">用户评价</span>
+        </div>
+
+        <!-- Tab: 商品详情 -->
+        <div class="tab-content active" data-tab="detail">
+          <h4>产品亮点</h4>
+          <div class="detail-feature-list">
+            <div class="detail-feature-item">
+              <span class="feature-check">✓</span>
+              新鲜采摘 — 每日清晨采摘，当天发货
+            </div>
+            <div class="detail-feature-item">
+              <span class="feature-check">✓</span>
+              低温锁鲜 — 采摘后立即预冷，锁住新鲜
+            </div>
+            <div class="detail-feature-item">
+              <span class="feature-check">✓</span>
+              精选分级 — 颗颗手工精选，大小均匀
+            </div>
+            <div class="detail-feature-item">
+              <span class="feature-check">✓</span>
+              礼盒包装 — 精致礼盒，送礼自用皆宜
+            </div>
+          </div>
+          <h4>适用场景</h4>
+          <p>适合家庭日常食用、节日送礼、朋友聚会分享。草莓富含维生素C和抗氧化物质，是健康饮食的理想选择。</p>
+          <h4>保存建议</h4>
+          <p>收到后请及时放入冰箱冷藏（0-4℃），建议在 2 天内食用完毕，口感最佳。</p>
+        </div>
+
+        <!-- Tab: 产地信息 -->
+        <div class="tab-content" data-tab="origin">
+          <h4>产地详情</h4>
+          <table class="origin-table">
+            <tr><td>产地</td><td>辽宁丹东 · 东港草莓基地</td></tr>
+            <tr><td>种植方式</td><td>大棚无土栽培，蜜蜂自然授粉</td></tr>
+            <tr><td>品种</td><td>红颜草莓（99 草莓）</td></tr>
+            <tr><td>采摘时间</td><td>每日清晨 5:00 - 8:00</td></tr>
+            <tr><td>保质期</td><td>冷藏条件下 3-5 天</td></tr>
+            <tr><td>认证</td><td>绿色食品认证、无公害农产品认证</td></tr>
+          </table>
+        </div>
+
+        <!-- Tab: 用户评价 -->
+        <div class="tab-content" data-tab="reviews">
+          <div class="review-list">
+            <div class="review-card">
+              <div class="review-header">
+                <div class="review-avatar">
+                  <div style="width:100%;height:100%;background:linear-gradient(135deg,#E8F5E0,#D4EDC8);display:flex;align-items:center;justify-content:center;font-size:20px;">👩</div>
+                </div>
+                <div>
+                  <div class="review-user">李女士</div>
+                  <div class="rating">
+                    <div class="rating-stars">
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="review-text">草莓非常新鲜，个头大而且很甜！包装也特别用心，礼盒很适合送人。已经是第二次回购了，冷链配送也很快，前一天下单第二天一早就到了。</p>
+              <div class="review-images">
+                <img src="assets/images/review_strawberry_01.png" alt="晒单图1">
+                <img src="assets/images/product_strawberry_giftbox_main.png" alt="晒单图2">
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="review-avatar">
+                  <div style="width:100%;height:100%;background:linear-gradient(135deg,#E0E8F0,#D0D8E8);display:flex;align-items:center;justify-content:center;font-size:20px;">👨</div>
+                </div>
+                <div>
+                  <div class="review-user">王先生</div>
+                  <div class="rating">
+                    <div class="rating-stars">
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="review-text">买给老婆的，她特别喜欢！草莓品质没得说，果香特别浓郁，和在超市买的完全不一样。包装也很精美，送礼很有面子。</p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="review-avatar">
+                  <div style="width:100%;height:100%;background:linear-gradient(135deg,#F8E8F0,#F0D8E8);display:flex;align-items:center;justify-content:center;font-size:20px;">👩‍🦰</div>
+                </div>
+                <div>
+                  <div class="review-user">张小姐</div>
+                  <div class="rating">
+                    <div class="rating-stars">
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star full"></span>
+                      <span class="rating-star half"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="review-text">总体很满意，草莓很甜水分足。唯一的建议是希望能出更小规格的包装，1.5kg 一个人吃有点多哈哈。冷链做得很好，收到时草莓还很冰。</p>
+              <div class="review-images">
+                <img src="assets/images/product_strawberry_giftbox_main.png" alt="晒单图3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Products (13) -->
+      <div class="related-section">
+        <h2 class="section-title">相关推荐</h2>
+        <div class="product-grid">
+          <a href="product-blueberry.html" class="product-card">
+            <div class="product-image">
+              <img src="assets/images/product_blueberry_1x1.png" alt="蓝莓家庭装">
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">蓝莓家庭装</h3>
+              <p class="product-desc">超大果径，甜脆多汁，产地直发</p>
+              <p class="product-spec">500g × 2盒</p>
+              <div class="product-footer">
+                <div class="product-price">
+                  <span class="price-current">59.00</span>
+                  <span class="price-original">79.00</span>
+                </div>
+                <button class="btn btn-outline btn-sm btn-add-cart">加入购物车</button>
+              </div>
+            </div>
+          </a>
+          <a href="product-oranges.html" class="product-card">
+            <div class="product-image">
+              <img src="assets/images/product_oranges_1x1.png" alt="进口橙子礼盒">
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">进口橙子礼盒</h3>
+              <p class="product-desc">澳洲进口，果肉多汁，酸甜适口</p>
+              <p class="product-spec">2kg 礼盒装</p>
+              <div class="product-footer">
+                <div class="product-price">
+                  <span class="price-current">78.00</span>
+                </div>
+                <button class="btn btn-outline btn-sm btn-add-cart">加入购物车</button>
+              </div>
+            </div>
+          </a>
+          <a href="product-tomatoes.html" class="product-card">
+            <div class="product-image">
+              <img src="assets/images/product_tomatoes_1x1.png" alt="有机番茄组合">
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">有机番茄组合</h3>
+              <p class="product-desc">多种番茄混搭，自然成熟风味浓郁</p>
+              <p class="product-spec">1.2kg 组合装</p>
+              <div class="product-footer">
+                <div class="product-price">
+                  <span class="price-current">45.00</span>
+                </div>
+                <button class="btn btn-outline btn-sm btn-add-cart">加入购物车</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer (shared) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>鲜野集 Fresh Field</h4>
+          <p>精选当季鲜果蔬菜，从优质产地直达您的餐桌。我们相信，好的食材不需要过多修饰，新鲜本身就是最好的味道。</p>
+        </div>
+        <div class="footer-col">
+          <h5>配送说明</h5>
+          <a href="#">冷链配送范围</a>
+          <a href="#">配送时效说明</a>
+          <a href="#">运费规则</a>
+          <a href="#">签收注意事项</a>
+        </div>
+        <div class="footer-col">
+          <h5>售后服务</h5>
+          <a href="#">坏果包赔政策</a>
+          <a href="#">退换货说明</a>
+          <a href="#">常见问题</a>
+          <a href="#">投诉建议</a>
+        </div>
+        <div class="footer-col">
+          <h5>会员权益</h5>
+          <a href="#">会员等级说明</a>
+          <a href="#">积分规则</a>
+          <a href="#">专属优惠</a>
+          <a href="#">会员日活动</a>
+        </div>
+        <div class="footer-col">
+          <h5>联系我们</h5>
+          <a href="#">客服电话：400-XXX-XXXX</a>
+          <a href="#">工作时间：9:00-21:00</a>
+          <a href="#">在线客服</a>
+          <a href="#">商务合作</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/components.js"></script>
+</body>
+</html>
